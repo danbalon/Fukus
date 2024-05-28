@@ -31,7 +31,9 @@ main {
 /* Styles for screens smaller than 600px (e.g. mobile devices) */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 10px;
+    background-color: #9ca39d;
+  color: #fff;
   }
 
   header {
