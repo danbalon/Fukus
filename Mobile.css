@@ -1,4 +1,4 @@
-/* Default styles for desktop and larger screens 
+ Default styles for desktop and larger screens 
 body {
   font-size: 16px;
   margin: 0;
@@ -29,7 +29,8 @@ nav a {
 main {
   padding: 2rem;
 }
-*/
+
+/*
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -80,6 +81,7 @@ footer {
 	text-align: center;
 	clear: both;
 }
+*/
 /* Styles for screens smaller than 600px (e.g. mobile devices) */
 @media screen and (max-width: 600px) {
   body {
