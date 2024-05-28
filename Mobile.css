@@ -83,7 +83,7 @@ footer {
 }
 */
 /* Styles for screens smaller than 600px (e.g. mobile devices) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1520px) {
   body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 8px;
