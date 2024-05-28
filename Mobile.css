@@ -85,7 +85,7 @@ footer {
 /* Styles for screens smaller than 600px (e.g. mobile devices) */
 @media screen and (max-width: 600px) {
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 8px;
     color: #5810df;
     background-color: #9ca39d;
@@ -93,9 +93,15 @@ footer {
   }
 
   header {
+	  /*
   background-color: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 1rem;*/
+
+	  background-color: #f0f0f0;
+	  color: #fff;
+	  padding: 1rem;
+	text-align: center;
   }
 
   nav {
