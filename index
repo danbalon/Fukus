@@ -1,0 +1,28 @@
+---
+layout: default
+title: My Website
+---
+
+<!-- Header -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <section>
+    <h1>Welcome to my website!</h1>
+    <p>This is a sample website created using GitHub Pages.</p>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2023 My Website</p>
+</footer>
