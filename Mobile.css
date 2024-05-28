@@ -11,6 +11,8 @@ header {
   padding: 1rem;
 }
 
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -90,7 +92,13 @@ footer {
   header {
     padding: 0.5rem;
   }
-
+section {
+	
+	background-color: #f5f5dc6c;
+	padding: 20px;
+	border: 1px solid #031101ce;
+	box-shadow: 0 0 10px rgba(160, 201, 11, 0.1);
+}
   nav {
     flex-direction: column;
     align-items: flex-start;
