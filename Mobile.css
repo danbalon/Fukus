@@ -32,8 +32,9 @@ main {
 @media screen and (max-width: 600px) {
   body {
     font-size: 10px;
+    color: #5810df;
     background-color: #9ca39d;
-  color: #fff;
+  
   }
 
   header {
