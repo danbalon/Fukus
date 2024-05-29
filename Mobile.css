@@ -1,6 +1,6 @@
  Default styles for desktop and larger screens 
 body {
-  font-size: 16px;
+  font-size: 8px;
   margin: 0;
   padding: 0;
 }
@@ -86,7 +86,7 @@ footer {
 @media screen and (max-width: 1000px) {
   body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 8px;
+    font-size: 5px;
     color: #5810df;
     background-color: #9ca39d;
   
