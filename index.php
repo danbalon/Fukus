@@ -23,8 +23,8 @@
     $mail->Port = 587;
 
     //Recipients
-    $mail->setFrom('your-email@example.com', 'Your Name');
-    $mail->addAddress('recipient-email@example.com', 'Recipient Name');
+    $mail->setFrom('shofuku582@gmail.com', 'Your Name');
+    $mail->addAddress('danbalon@gmail.com', 'Recipient Name');
 
     //Content
     $mail->isHTML(true);
