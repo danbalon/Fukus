@@ -1,8 +1,14 @@
 <?php
+  
   require 'vendor/autoload.php';
-
   use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\SMTP;
   use PHPMailer\PHPMailer\Exception;
+
+
+//require 'vendor/PHPMailer/PHPMailer/src/PHPMailer.php';
+//require 'vendor/PHPMailer/PHPMailer/src/SMTP.php';
+
 
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -15,16 +21,18 @@
   try {
     //Server settings
     $mail->isSMTP();
-    $mail->Host = 'https://www.gmail.com/';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'shofuku582@gmail.com';
-    $mail->Password = '';
+    $mail->Username = getenv('DB_USERNAME');
+    $mail->Password = getenv('DB_PASSWORD');
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
+
+
     //Recipients
-    $mail->setFrom('shofuku582@gmail.com', 'Your Name');
-    $mail->addAddress('danbalon@gmail.com', 'Recipient Name');
+    $mail->setFrom('shofuku582@gmail.com', 'Ken');
+    $mail->addAddress('shofuku582@gmail.com', 'Ken');
 
     //Content
     $mail->isHTML(true);
@@ -36,5 +44,4 @@
   } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
   }
-  header('Location: thank-you.html');
 ?>
