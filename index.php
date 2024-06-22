@@ -23,8 +23,8 @@
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = getenv('DB_USERNAME');
-    $mail->Password = getenv('DB_PASSWORD');
+    $mail->Username = 'shofuku582@gmail.com';
+    $mail->Password = 'yljp xikw paee samy';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
